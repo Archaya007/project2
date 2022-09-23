@@ -1,0 +1,21 @@
+var sample={
+	"skills":[
+		"java",
+		"python",
+		"node",
+		"kotlin"
+	],
+	"name":"mkyong",
+	"position":[
+		"Founder",
+		"CTO",
+		"Writer"
+	],
+	"salary":{
+		"2018":14000,
+		"2012":12000,
+		"2010":10000
+	},
+	"age":38
+}
+console.log(sample.salary("2018"));
